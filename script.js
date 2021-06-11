@@ -1,17 +1,33 @@
 "use strict";
 
-const namealert = "Roma";
-const surname = "Cipapa";
+/*
+const NumberOfFilms = prompt("Сколько фильмов вы посмотрели?"," ");
+const PersonalMovieDB = {
+    count: NumberOfFilms,
+    movies: {
 
-console.log(`Твоё имя - ${namealert}, а фамилия - ${surname}`);
+    },
+    actors:{
 
-let first = 7,
-    second = 8;
+    },
+    genres:[],
+    privat: false
+};
 
-console.log(first++);
-console.log(++first);
+const qs = prompt("Какой твой последний фильм?", ""),
+    qs1 = prompt("На сколько баллов ты его оценишь?", ""),
+    qs2 = prompt("Какой твой второй последний фильм?", ""),
+    qs3 = prompt("На сколько баллов ты его оценишь?", "");
 
-console.log(2 + 2 !== 4);
+
+PersonalMovieDB.movies[qs]=  qs1;
+PersonalMovieDB.movies[qs2] = qs3;
+console.log(PersonalMovieDB.movies);
+document.write(PersonalMovieDB.movies);
+
+*/
+
+
 
 
 
