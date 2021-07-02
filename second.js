@@ -82,7 +82,7 @@ array.forEach(function(a, b){
     console.log(`b = ${b}`);
 });*/
 
-let a = prompt("", "");
+/*let a = prompt("", "");
 a = a.split(",") || a.split(", ") || a.split("; "); // Из а получаем что-то
 
 function da(){
@@ -100,6 +100,33 @@ console.log(a);
 function Num(a,b){
     return a - b;
 } 
+*/
+
+const obj = {
+    a:10,
+    b:5
+};
+
+
+
+function objCopy(mainObj){
+    let objCopy = {};
+    
+    for(let key in mainObj){
+        objCopy[key] = mainObj[key];
+    }
+    return objCopy;
+}
+
+console.log(obj);
+console.log(objCopy(obj));
+
+const ce = ["ауц", "хуюч"];
+const ec = [...ce];
+
+ec[1] = "нет";
+console.log(ce);
+console.log(ec);
 
  
 
