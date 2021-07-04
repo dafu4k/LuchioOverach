@@ -130,3 +130,21 @@ console.log(ec);
 
  
 
+const obj2 = {
+     name:"da",
+     surname: "net",
+     info:{
+        adress: "ia"
+     }
+ };
+
+ let copyObj2 = {...obj2};
+ copyObj2.adress = "net";
+ console.log(obj2);
+ console.log(copyObj2);
+
+
+ const array = ["а б","а а"];
+ console.log(array.sort().join(", "));
+
+

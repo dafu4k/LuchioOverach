@@ -1,7 +1,7 @@
 "use strict";
 
 
-/*let NumberOfFilms;
+let NumberOfFilms;
 
 function start() {                                                                   //В функциях не забывать ()!!!!
     NumberOfFilms = +prompt("Сколько фильмов вы посмотрели?"," ");
@@ -33,11 +33,10 @@ function rememberMyFilms(){
               b = prompt("На сколько баллов ты его оценишь?", "");
               if (a.length == 0 || a.length > 50 || a == null ){
                 alert("Учтите, что длина поля не должна быть больше 50 символов, меньше одного или вообще иметь пустую строку");
-                i--;                                                /*Можно сказать заставляет нас заново отвечать на тот же самый вопрос
-                                                                    За счёт того, что мы "отклоняем" шаг в цикле*/  
-             /* } else {
+                i--;                                                //Можно сказать заставляет нас заново отвечать на тот же самый вопрос
+                                                                    //За счёт того, что мы "отклоняем" шаг в цикле 
+              } else {
                   PersonalMovieDB.movies[a] = b;
-                  console.log(PersonalMovieDB.movies);
               }
             }
 }
@@ -59,7 +58,6 @@ detectPersonalLevel();
 
 function showMyDB() {
     if (PersonalMovieDB.privat == false){
-        console.log(PersonalMovieDB);
     }
 }
 
@@ -76,6 +74,6 @@ function writeYourGenres() {
 writeYourGenres();
 
 console.log(PersonalMovieDB);
-*/  
+
 
 
