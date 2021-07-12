@@ -102,7 +102,7 @@ function Num(a,b){
 } 
 */
 
-const obj = {
+/*const obj = {
     a:10,
     b:5
 };
@@ -146,5 +146,29 @@ const obj2 = {
 
  const array = ["а б","а а"];
  console.log(array.sort().join(", "));
+
+
+
+let object = {
+    name: "Andrey"
+};
+
+object["surname"] = "Malyshew";
+object["adress"] = { street: "yub" };
+object.adress["home"] = "94";
+console.log(object);
+
+let str = "да";
+let a = new String(str);
+console.log(typeof(a));
+console.log(a);
+console.log(typeof(a));
+*/
+const americanBoy = {
+    LGBTQ: true,
+    intellect: 10,
+
+};
+
 
 
