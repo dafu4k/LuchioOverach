@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 const PersonalMovieDB = {
     count: 0,
     movies: {
@@ -76,7 +76,7 @@ PersonalMovieDB.start();
 //PersonalMovieDB.writeYourGenres();
 //PersonalMovieDB.toggleVisibleMyDB();
 console.log(PersonalMovieDB);
-
+*/
 
 
 

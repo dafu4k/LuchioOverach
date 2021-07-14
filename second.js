@@ -164,11 +164,5 @@ console.log(typeof(a));
 console.log(a);
 console.log(typeof(a));
 */
-const americanBoy = {
-    LGBTQ: true,
-    intellect: 10,
 
-};
-
-
-
+console.log(1 && 2 && 3);
